@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    width: 100%;
+}
+.logo img{
+    height: auto;
+    width: 100%;
+}
+
+  
+
+.propaganda, .oferta, .orcamento, .rodape{
+    padding: 30px;
+    line-height: 1.5;
+    margin: auto;
+   text-align: center;
+
+}
+.oferta ul {
+   list-style: none;
+}
+
+.propaganda a{
+text-decoration: none;
+border: 1px solid  rgb(137, 190, 51);
+padding: 10px;
+border-radius: 15px;
+}
+
+.propaganda a:hover{
+    background-color: rgb(17, 44, 133);
+    color: white;
+    font-weight: bold;
+}
+
+ h1, h2, h3{
+    padding: 15px;
+}
+span{
+    color: rgb(137, 190, 51);
+    font-weight: bold;
+}
+.orcamento a{
+    text-decoration: none;
+    border: 1px solid  rgb(137, 190, 51);
+    padding: 10px;
+    border-radius: 15px;
+    }
+.orcamento a:hover{
+    background-color: rgb(17, 44, 133);
+    color: white;
+    font-weight: bold;
+}
+.rodape{
+    text-align: center;
+    height: 20px;
+    background-color: rgb(17, 44, 133);
+    color: white;
+    padding: 15px;
+    margin-bottom: 0;
+}
